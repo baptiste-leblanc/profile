@@ -1,5 +1,5 @@
 body {
-  background-color: #ffb58f;
+  background-color: #bcd5ff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   line-height: normal;
@@ -14,10 +14,10 @@ h1, h2 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 32px;
   line-height: auto;
-  color: #FC5200;
+  color: #001868;
 }
 
-.a-strava {
+/* .a-strava {
   color: white;
   text-decoration: none;
   padding: 18px;
@@ -25,14 +25,14 @@ h1, h2 {
   border-radius: 5px;
   font-size: 20px;
   border: #FC5200 solid 3px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
-}
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+} */
 
-.a-strava:hover {
+/* .a-strava:hover {
   color: #FC5200;
   background-color: white;
   border: #FC5200 solid 3px;
-}
+} */
 
 .a-work {
   color: white;
@@ -42,7 +42,7 @@ h1, h2 {
   border-radius: 5px;
   font-size: 20px;
   border: black solid 3px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 
 .a-work:hover {
@@ -62,7 +62,7 @@ i.fa-brands {
 }
 
 i.fa-brands:hover {
-  color: #CC4201;
+  color: grey;
 }
 
 li {
