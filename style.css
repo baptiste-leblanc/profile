@@ -10,7 +10,7 @@ body {
   width: 150px;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 32px;
   line-height: auto;
@@ -24,15 +24,39 @@ h1, h2, h3 {
   background-color: #FC5200;
   border-radius: 5px;
   font-size: 20px;
+  border: #FC5200 solid 3px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
 }
 
 .a-strava:hover {
-  color: rgba(255, 255, 255, 0.646);
-  background-color: #CC4201;
+  color: #FC5200;
+  background-color: white;
+  border: #FC5200 solid 3px;
+}
+
+.a-work {
+  color: white;
+  text-decoration: none;
+  padding: 18px;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 20px;
+  border: black solid 3px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+.a-work:hover {
+  color: black;
+  background-color: white;
+  border: black solid 3px;
+}
+
+.paragraph-margin {
+  margin-bottom: 40px;
 }
 
 i.fa-brands {
-  color: #FC5200;
+  color: black;
   font-size: 50px;
   margin: 2px;
 }
@@ -55,6 +79,10 @@ li {
   text-align: center;
 }
 
+.margin-auto {
+  margin: auto;
+}
+
 .card-white {
   background: white;
   border-radius: 5px;
@@ -65,6 +93,18 @@ li {
   padding-right: 40px;
   padding-left: 40px;
   padding-bottom: 70px;
+}
+
+.split {
+  display: flex;
+}
+
+.right {
+  margin: auto;
+}
+
+.left {
+margin: auto;
 }
 
 @media (max-width: 960px) {
