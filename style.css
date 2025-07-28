@@ -86,13 +86,29 @@ li {
 .card-white {
   background: white;
   border-radius: 5px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  box-shadow: 0 10px 30px rgba(28, 92, 253, 0.3);    /* Light shadow */
   width: 50%;
   margin: 20px auto;
   padding-top: 40px;
   padding-right: 40px;
   padding-left: 40px;
   padding-bottom: 70px;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: appear 1s ease-out both;
+  animation-timeline: scroll-appear;
+  animation-range: entry 0% exit 50%;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 100%;
+    transform: translateY(0);
+  }
 }
 
 .split {
@@ -106,6 +122,25 @@ li {
 .left {
 margin: auto;
 }
+
+/* .card-white {
+  animation-duration: 2s;
+  animation-name: slidein;
+} */
+
+/* @keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 75%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+} */
 
 @media (max-width: 960px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
